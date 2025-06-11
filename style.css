@@ -11,7 +11,7 @@ body{
 
 main{
     width: 75%;
-    height: 75%;
+    height: 90%;
     background-color: #2C2638;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ main{
     object-fit: cover;
     border: 4px solid #2C2638;
     border-radius: 12px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .login{
