@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    width: 75%;
+    width: 70%;
     height: 90%;
     background-color: #2C2638;
     display: flex;
@@ -32,17 +32,19 @@ main{
 }
 
 .image-section img{
-    max-width: 100%;
-    max-height: 95%;
-    object-fit: cover;
+    min-width: 95%;
+    min-height: 95%;
+    object-fit: fill;
     border: 4px solid #2C2638;
     border-radius: 12px;
     margin-left: 2%;
 }
-
 .login{
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4%;
 }
