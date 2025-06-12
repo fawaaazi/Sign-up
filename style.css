@@ -48,3 +48,11 @@ main{
     align-items: center;
     margin: 4%;
 }
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
