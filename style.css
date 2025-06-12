@@ -16,14 +16,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: #2C2638 4px solid;
+    border: #2C2638 6px solid;
     border-radius: 12px;
     object-fit: fill;
 }
 
 .image-section{
     height: 100%;
-    width: 45rem;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -31,37 +31,140 @@ main{
 
 }
 
-.image-section img{
+.image-section #login-img{
     min-width: 95%;
     min-height: 95%;
     object-fit: fill;
-    border: 4px solid #2C2638;
+    border: 6px solid #2C2638;
     border-radius: 12px;
     margin-left: 2%;
 }
+.image-section #logo{
+    position: absolute;
+    height: 10%;
+    width: auto;
+    top: 3.85rem;
+    left: 16.8rem;
+}
+.image-section h1{
+    position: absolute;
+    color:#f0eef2;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+}
+.image-section #quote-start{
+   top: 27rem;
+    left: 21rem;
+}
+.image-section #quote-end{
+    top: 28.5rem;
+    left: 26rem;
+}
 .login{
     height: 100%;
-    width: 50%;
+    width:50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: first baseline;
     align-items: center;
-    margin: 4%;
-    padding-inline-end: 8rem;
+    padding-top: 7rem;
+    object-fit: fill;
+}
+.login-title h1{
+    color: #f0eef2;
+    margin: 1rem;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.login-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 4%;
+.login-title p{
+    color: #f0eef2;
+    margin: 1rem;
+    font-size: 16px;
 }
-
+.login-title a{
+    color:#6d54b7;
+    font-size: 16px;
+}
 .login form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.login input{
+    background-color: #686279;
+    border: #646176 1px solid;
+    color:#f0eef2;
+    border-radius: 5px;
+    height: 2.3rem;
+    font-weight: 500;
+    outline: none;
+}
+.login input::placeholder{
+    color: #f0eef2;
+    font-weight: 500;
+    padding: 3px;
+
+}
+
+#name{
+   width: max-content;
+}
+#email, #password{
+    width: -webkit-fill-available;   
+}
+
+.login input:focus{
+    border:#f0eef2 1px solid;
+    color: #f0eef2;
+    background-color: #686279;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+#terms{
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+}
+
+#terms input[type=checkbox]{
+   margin: 0;
+    margin-right: 0.8rem;
+    height: 1rem;
+    width: 1rem;
+    border: #2C2638 1px solid;
+    border-radius: 1px;
+}
+
+#terms p{
+    color: #f0eef2;
+    font-size: 16px;
+    margin: 0;
+}
+#terms a{
+    color: #6d54b7;
+     font-size: 16px;
+}
+.login button{
+    background-color: #6d54b7;
+    color: #f0eef2;
+    border: #3C364C 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 2.5rem;
+    width: -webkit-fill-available;
+
 }
