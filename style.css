@@ -68,10 +68,11 @@ main{
     flex-direction: column;
     justify-content: first baseline;
     align-items: center;
-    padding-top: 7rem;
+   
     object-fit: fill;
 }
 .login-title h1{
+    padding-top: 4rem;
     color: #f0eef2;
     margin: 1rem;
     font-size: 32px;
